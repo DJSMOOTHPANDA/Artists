@@ -23,9 +23,10 @@ override func viewDidLoad() {
     // Get the category that was tapped
     let category = sender.titleLabel!.text!
 
-    // Create an array of artists for the category
+    // Create an array of artists for the cate. gory
     let artists = [
         "1970s Christian Pop Artists": ["2nd Chapter of Acts", "After the Fire", "Dennis Agajanian", "All Saved Freak Band", "The Alpha Band"],
+        "Acid Rock Arthsts": ["13th Floor Elevators", ]
     ]
 
     // Create a button for each artist in the category
